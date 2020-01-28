@@ -10,6 +10,7 @@ import menu from './menu';
 import { HomePage } from './Home';
 import { HospitalPage } from './Hospital';
 import { HospitalEdit } from './Hospital/Edit';
+import { HotelPage } from './Hotel';
 import { LogisticsPage } from './Logistics';
 
 import './index.css';
@@ -25,6 +26,7 @@ export class PageRouter extends HTMLRouter {
         { paths: [''], component: HomePage },
         { paths: ['hospital'], component: HospitalPage },
         { paths: ['hospital/edit'], component: HospitalEdit },
+        { paths: ['hotel'], component: HotelPage },
         { paths: ['logistics'], component: LogisticsPage }
     ];
 
